@@ -13,23 +13,36 @@
   "pluginOptions": {},
   "attributes": {
     "NAME": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "slug": {
       "type": "uid",
       "targetField": "NAME"
     },
     "ingredient1": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "ingredient2": {
       "type": "string"
     },
     "appearance": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "color": {
+      "type": "string",
+      "required": true
+    },
+    "shortName": {
       "type": "string"
+    },
+    "scientificName": {
+      "type": "string"
+    },
+    "benefits": {
+      "type": "text"
     }
   }
 }
