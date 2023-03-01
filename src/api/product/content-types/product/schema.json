@@ -14,35 +14,42 @@
   "attributes": {
     "NAME": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "slug": {
       "type": "uid",
       "targetField": "NAME"
     },
-    "ingredient1": {
+    "specification1": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
-    "ingredient2": {
-      "type": "string"
-    },
-    "appearance": {
+    "specification2": {
       "type": "string",
-      "required": true
-    },
-    "color": {
-      "type": "string",
-      "required": true
+      "pluginOptions": {}
     },
     "shortName": {
-      "type": "string"
-    },
-    "scientificName": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "benefits": {
-      "type": "text"
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "specification3": {
+      "type": "string",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "primaryFunction": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "specification4": {
+      "type": "string",
+      "pluginOptions": {}
     }
   }
 }
